@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             val clilkedRoom = mRoomList[position]
 
             val myIntent = Intent(this,ViewRoomDetailActivity::class.java)
+            myIntent.putExtra("room",clilkedRoom)
             startActivity(myIntent)
         }
 

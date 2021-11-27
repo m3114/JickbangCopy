@@ -2,6 +2,7 @@ package com.neppplus.jickbangcopy
 
 import android.location.Address
 import java.io.FileDescriptor
+import java.io.Serializable
 import java.text.NumberFormat
 import java.util.*
 
@@ -11,7 +12,7 @@ class RoomData(
     val floor:Int,
     val descriptor: String
 
-){
+) : Serializable {
 
 //    방 데이터 기능 : 가격을 가공해서 스트링으로 주는 기능= 리스트뷰에서 , 상세화면두군데에서 사용
 
