@@ -20,4 +20,11 @@ class ViewRoomDetailActivity : AppCompatActivity() {
 
 
     }
+
+    fun setupEvents(){
+
+    }
+    fun setValues(){
+
+    }
 }
