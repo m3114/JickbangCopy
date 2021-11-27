@@ -21,7 +21,7 @@ class RoomAdapter(
         val  tempRow = convertView
 
         if(tempRow == null){
-            tempRow = mInflater.inflate(R.layout., room_list_item, null)
+            tempRow = mInflater.inflate( R.layout.room_list_item.null)
         }
         val row = tempRow!!
         return  row
