@@ -53,6 +53,10 @@ class MainActivity : AppCompatActivity() {
             mRoomList.add(RoomData(38000,"서울시 동문구", -1,"3번째 방입니다."))
 
 
+        mRoomAdapter = RoomAdapter(this, R.layout.room_list_item,mRoomList)
+        roomListview.adapter = mRoomAdapter
+
+
 
     }
 }
