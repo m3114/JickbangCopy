@@ -8,8 +8,12 @@ import com.neppplus.jickbangcopy.adapters.RoomAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+//    방 목록을 담기 위한 그릇
+
 
     val mRoomList = ArrayList<RoomData>()
+
+//    변수는멤버변수로 대입은 onCreate fh {}니ㅏ중에 :lateinit var
     lateinit var mRoomAdapter:RoomAdapter
 
 
