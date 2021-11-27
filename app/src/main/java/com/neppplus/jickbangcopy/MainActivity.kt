@@ -6,8 +6,7 @@ import android.widget.ArrayAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var mjickbangAdapter: jickbangAdapter
-    val jickbangList
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
