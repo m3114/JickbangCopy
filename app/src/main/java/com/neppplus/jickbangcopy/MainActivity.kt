@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+        
+// array실제작업
         mRoomList.add(RoomData(8000,"서울시 동대문구", 5,"1번째 방입니다."))
         mRoomList.add(RoomData(18000,"서울시 동대문구", 3,"2번째 방입니다."))
         mRoomList.add(RoomData(28000,"서울시 서대문구", 2,"3번째 방입니다."))
