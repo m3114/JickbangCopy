@@ -27,7 +27,7 @@ class RoomData(
             val uk = this.price / 10000  // int / int -= 결과도 무조건int (소수점 버림)억단위 추출
 
             val rest = this.price % 10000 // 나머지 구하기 = 천만원 단위까지 추출
-            val str  = NumberFormat.getNumberInstance(Locale.KOREA).format(this.price)
+            val str  = NumberFormat.getNumberInstance(Locale.KOREA).format(rest)
             return "${uk}억 ${rest}"
         }
     }
